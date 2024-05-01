@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    padding-top: 2%;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    padding-bottom: 1%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding-top: 6%;
+}
