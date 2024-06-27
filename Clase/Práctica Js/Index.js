@@ -1,3 +1,5 @@
+//  EJERCICIOS DE CLASE
+/*
 //* <-- Ejercicio 1 -->
 let x = 10;
 let y = 20;
@@ -70,3 +72,50 @@ console.log("EJERCICIO 5");
 function esPar(numero) {
     return ((numero % 2) === 0).toString();
 }
+*/
+
+//  CODEWARS
+//  Ejercicio 1
+/*
+function toNumberArray(stringarray){
+    return stringarray.map((num) => eval(num));
+}
+
+const array = ["1", "2", "3"];
+console.log(toNumberArray(array));
+//  Ejercicio 2
+const countBits = n => n.toString(2).split('0').join('').length;
+console.log(countBits(1234));
+//  Ejercicio 3
+const filter_list = l => l.filter(Number.isInteger);
+
+const array = ["1", "2", "3", "a", "b", "c", 8, 99, 100];
+console.log(filter_list(array));
+//  Ejercicio 4
+const findShort = (list) => Math.min(...list.map(x => x.length));
+
+console.log(findShort(["bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"]));
+// Ejercicio 5
+const likes = names => {
+    switch (names.length) {
+        case 0:
+            return "no one likes this";
+        case 1:
+            return names[0] + " likes this";
+        case 2:
+            return names[0] + " and " + names[1] + " like this";
+        case 3:
+            return names[0] + ", " + names[1] + " and " + names[2] + " like this";
+        default:
+            return names[0] + ", " + names[1] + " and " + (names.length - 2) + " others like this";
+    }
+}
+// Ejercicio 6
+const isSquare = num => Number.isInteger(Math.sqrt(num));
+
+console.log(isSquare());
+*/
+//  Ejercicio 7
+const removeUnique = str =>  [...str].filter((char) => str.count(char) > 1);
+
+console.log("abccdefee");
